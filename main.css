@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "PT Sans", arial;
+	font-size: 12px;
+	background: url(http://subtlepatterns.com/patterns/paper_fibers.png);
+}
+.container{
+	width:906px;
+	margin: 10px auto;
+	border: 1px solid #eee;
+	box-shadow: 0 5px 50px rgba(0,0,0,1);
+}
+.thumb{
+	background:url(http://subtlepatterns.com/patterns/escheresque_ste.png);
+	width: 300px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid #eee;
+	position: relative;
+}
+.content h2{
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.content{
+	position:absolute;
+	top: 0;
+	left:0;
+	margin:30px;
+	color: #eee;
+}
+.wrapper{
+	position:absolute;
+	top: 0;
+	left: 0;
+	height:300px;
+	width: 200px;
+}
+.wrapper img{
+	height:200px;
+	width: 300px;
+}
